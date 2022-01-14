@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang = "ko">
+	<head>
+		<meta charset="UTF-8">
+		<title>HTML 링크</title>
+		<style>
+			a:link {color:teal;}
+			a:visited {color:maroon; text-decoration:none}
+			a:hover {color:yellow; text-decoration:none}
+			a:active{color:red; text-decoration:none}
+		</style>
+	</head>
+	<body>
+		<a href="./12.html">
+			<h2>
+				이 링크를 클릭해 보세요!
+			</h2>
+		</a>
+		<h2 id="black">
+			<a href="./1.html" target="_blank" id="blank">blank</a>
+		</h2>
+		<h2>
+			<a href="./2.html" target="_self">self</a>
+		</h2>
+		<h2 id="parent">
+			<a href="./3.html" target="_parent">parent</a>
+		</h2>
+		<h2>
+			<a href="./4.html" target="_top">top</a>
+		</h2>
+		<h2>
+			<a href="./5.html" target="myframe">myframe</a>
+		</h2>
+		<a href="./6.html">ss</a>
+		
+		<iframe name="myframe" style="width:50%; height:330px">
+			
+		</iframe>
+		<h2>
+			
+			<a href="#parent"><p>
+				parent로 갑시다!!!!
+				</p></a>
+		</h2>
+	</body>
+</html>
