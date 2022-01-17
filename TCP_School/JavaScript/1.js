@@ -25,3 +25,8 @@ function sy(){
 	
 	document.getElementById("result").innerHTML=(typeof sym)+"<br>"+(typeof symObj)
 }
+
+function al(){
+	var n = prompt("Message");
+	alert(n);
+}
